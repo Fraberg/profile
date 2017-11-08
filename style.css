@@ -65,18 +65,6 @@ a:hover {
   border: solid 3px rgb(230, 230, 230);
 }
 
-.btn-blue {
-  display: inline-block;
-  background-color: #0eb1d2;
-  color: white;
-  padding: 11px 20px;
-  border-radius: 3px;
-  font-weight: bold;
-}
-
-.btn-blue:hover {
-  color: rgb(230, 230, 230);
-}
 
 .list-inline li {
   list-style: none;
@@ -162,6 +150,21 @@ table tr:not(:last-child) {
   margin-left: 100px;
 }
 
+/**/
+
+.btn-blue {
+  display: inline-block;
+  background-color: #0eb1d2;
+  color: white;
+  padding: 11px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.btn-blue:hover {
+  color: rgb(230, 230, 230);
+}
+
 .btn {
   display: block;
   width: 180px;
@@ -169,9 +172,8 @@ table tr:not(:last-child) {
   font-family: 'Droid Sans Mono', sans-serif;
   font-size: 16px;
   color: #fff;
-  background-color: #69A551;
-  border-radius: 5px;
-  box-shadow: 0px 3px 0px #3D8C72;
+  background-color: #0eb1d2;
+  border-radius: 3px;
   text-align: center;
   line-height: 50px;
   text-decoration: none;
@@ -183,12 +185,6 @@ table tr:not(:last-child) {
   animation: btnWiggle 5s infinite;
 }
 
-.subtext {
-  font-family: 'Droid Sans Mono', sans-serif;
-  font-size: 14px;
-  letter-spacing: .05em;
-  text-align: center;
-}
 
 /* animation */
 @-webkit-keyframes btnWiggle {
