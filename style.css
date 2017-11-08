@@ -74,6 +74,10 @@ a:hover {
   font-weight: bold;
 }
 
+.btn-blue:hover {
+  color: #f06449;
+}
+
 .list-inline li {
   list-style: none;
   display: inline-block;
