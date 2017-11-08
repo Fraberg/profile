@@ -137,11 +137,19 @@ table tr:not(:last-child) {
 #sidebar {
   background-color: #0eb1d2;
   position: fixed;
-  width: 300px;
+  width: 50px;
   left: 0;
   top: 0;
   bottom: 0;
 }
 #page-content {
-  margin-left: 300px;
+  margin-left: 50px;
+}
+
+#sidebar li {
+  color: white;
+  list-style: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  padding-left: 0;
 }
