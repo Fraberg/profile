@@ -1,7 +1,7 @@
 /* body */
 
 body {
-  width: 600px;
+  width: 700px;
   margin: 10px auto;
   background: #EBEBEB;
   font-family: 'Nunito', sans-serif;
@@ -137,19 +137,26 @@ table tr:not(:last-child) {
 #sidebar {
   background-color: #0eb1d2;
   position: fixed;
-  width: 50px;
+  width: 100px;
   left: 0;
   top: 0;
   bottom: 0;
 }
 #page-content {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 #sidebar li {
-  color: white;
   list-style: none;
   padding: 10px 10px;
   font-size: 20px;
   padding-left: 0;
+}
+
+#sidebar i {
+  color: white;
+}
+
+#sidebar i:hover {
+  color: rgb(180, 180, 180);
 }
