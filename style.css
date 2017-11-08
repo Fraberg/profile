@@ -135,6 +135,7 @@ table tr:not(:last-child) {
 /*sidebar*/
 
 #sidebar {
+  background-color: #0eb1d2;
   position: fixed;
   width: 300px;
   left: 0;
